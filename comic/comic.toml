@@ -1,0 +1,7 @@
+name = "Tako Nigiri"
+placeholder = "/imgs/placeholder.svg"
+volumes = [
+    "chapter-1",
+    "chapter-2",
+]
+

@@ -1,0 +1,208 @@
+body {
+    font-family: "TakoNigiri", sans-serif;
+    color: black;
+    background-image:
+        url("../imgs/bg-tile.png"),
+        linear-gradient(rgba(12, 15, 161, 0.5), rgba(56, 212, 205, 0.5));
+    background-attachment: fixed;
+    padding-bottom: 8rem;
+}
+
+.block {
+    display: block;
+}
+
+.float {
+    float: left;
+}
+
+.link {
+    color: rgb(193, 80, 101);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#title-img {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#page-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.text-outline {
+    text-shadow: rgb(255, 255, 255) 3px 0px 0px, rgb(255, 255, 255) 2.8348708152770996px 0.9815840721130371px 0px, rgb(255, 255, 255) 2.357661724090576px 1.855109453201294px 0px, rgb(255, 255, 255) 1.620906949043274px 2.5244128704071045px 0px, rgb(255, 255, 255) 0.7057127356529236px 2.915813684463501px 0px, rgb(255, 255, 255) -0.2871706485748291px 2.9862239360809326px 0px, rgb(255, 255, 255) -1.2484405040740967px 2.7278923988342285px 0px, rgb(255, 255, 255) -2.0722744464874268px 2.169257640838623px 0px, rgb(255, 255, 255) -2.6679797172546387px 1.3718178272247314px 0px, rgb(255, 255, 255) -2.969977378845215px 0.42336001992225647px 0px, rgb(255, 255, 255) -2.9450221061706543px -0.5717039108276367px 0px, rgb(255, 255, 255) -2.595860481262207px -1.503831148147583px 0px, rgb(255, 255, 255) -1.9609308242797852px -2.2704074382781982px 0px, rgb(255, 255, 255) -1.110129952430725px -2.787043571472168px 0px, rgb(255, 255, 255) -0.13711915910243988px -2.9968647956848145px 0px, rgb(255, 255, 255) 0.8509865403175354px -2.876772880554199px 0px, rgb(255, 255, 255) 1.745410442352295px -2.439988136291504px 0px, rgb(255, 255, 255) 2.4476890563964844px -1.734594702720642px 0px, rgb(255, 255, 255) 2.8805108070373535px -0.8382465243339539px 0px, rgb(0, 0, 0) 4px 4px 4px;
+}
+
+#mini-nav {
+    float: right;
+}
+
+.mini-nav-icon {
+    margin: 10px;
+}
+
+.faded {
+    opacity: 0.4;
+}
+
+#upload {
+    background-color: rgb(74, 71, 70);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+#upload>p {
+    margin: 0;
+}
+
+#nav {
+    /* background-color: rgba(81, 167, 173, 0.8); */
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0;
+}
+
+#nav>a.my-nav-link {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    #nav>a.my-nav-link {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav>a.my-nav-link {
+        font-size: 1rem;
+    }
+}
+
+#nav .bi-dot {
+    visibility: hidden;
+}
+
+
+#nav>a.my-nav-link:hover .bi-dot {
+    visibility: visible;
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.chapter-banner {
+    width: 100%;
+}
+
+.chapter-banner-spacing {
+    margin-bottom: 10px;
+}
+
+#comic-nav {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 4rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#comic-nav>a,
+#comic-nav>span {
+    margin: 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#comic-nav>span {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#comic-nav i.squish-left {
+    margin-right: -0.4rem;
+}
+
+#comic-nav i.squish-right {
+    margin-left: -0.4rem;
+}
+
+#comic-nav>a:hover {
+    color: rgb(193, 80, 101);
+}
+
+#social {
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+a>.icon:hover {
+    color: rgb(193, 80, 101);
+}
+
+@font-face {
+    font-family: "TakoNigiri";
+    src: url(../fonts/TakoNigiri\ Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(193, 80, 101);
+}
+
+.archive-table {
+    border: 0.5rem solid white;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0.5rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
+
+.volume>img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.volume>a {
+    white-space: nowrap;
+}
+
+.content-box {
+    border: 0.5rem solid white;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
+
+.content-box>h2 {
+    font-size: 1.5rem;
+}
+
+.social {
+    margin: 10px;
+    color: black;
+}
