@@ -26,6 +26,8 @@ jobs:
         run: pip install scuzzie
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          lfs: true
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Scuzzie
