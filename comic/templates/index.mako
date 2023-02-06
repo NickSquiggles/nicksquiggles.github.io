@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col-lg-9">
         <div class="content-box">
-            <h4>Chapter 2 is now live - start reading by choosing a chapter below ⤵️</h4>
+            <h4>Chapter 3 is now live - start reading by choosing a chapter below ⤵️</h4>
             <hr>
             % for i, volume in reversed(list(enumerate(comic.each_volume()))):
                 <a href="${volume.first_page.url}">
@@ -24,7 +24,7 @@
     </div>
     <div class="col-lg-3">
         <div id="upload">
-            <p>Chapter 3</p>
+            <p>Chapter 4</p>
             <p>coming soon!</p>
         </div>
         <nav class="nav flex-column" id="nav">

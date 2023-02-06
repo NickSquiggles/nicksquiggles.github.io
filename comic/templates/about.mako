@@ -27,7 +27,7 @@
     </div>
     <div class="col-lg-3">
         <div id="upload">
-            <p>Chapter 3</p>
+            <p>Chapter 4</p>
             <p>coming soon!</p>
         </div>
         <nav class="nav flex-column" id="nav">
